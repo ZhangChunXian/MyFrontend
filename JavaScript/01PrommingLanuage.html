@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
+    <!--内嵌式的js-->
     <script>
-        alert('我是编程语言, 来控制电脑网页弹出你好')
+      // alert('我是编程语言, 来控制电脑网页弹出你好')
     </script>
-</head>
-<body>
-</body>
+    <!--外部js写法-->
+    <script src="ExternalJavaScript"></script>
+  </head>
+
+  <body>
+    <!--1. 行内式的js直接写到元素的内部-->
+    <input type="button" value="唐伯虎" onclick="alert('秋香姐')" />
+  </body>
 </html>
