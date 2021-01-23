@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varible Syntax Extension</title>
+    <script>
+        var myname = 'pink';
+        console.log(myname);
+        // 1. 更新变量
+        myname = '迪丽热巴';
+        console.log(myname);
+        // 2. 声明多个变量
+        var age     = 18;
+            address = '火影村';
+            salary  = 2000;
+        // 3. 声明变量的特殊情况
+            // 3.1 声明不赋值
+            var sex;
+            console.log(sex);       // 变量未赋值, console中显示为undefined
+            // 3.2 不声明, 不赋值
+            // console.log(time);   // 不声明不赋值, 直接使用会报错
+            // 3.3 不声明, 直接赋值使用
+            qq = 110;
+            console.log(qq);        // js中正常显示, 但是总的来说不推荐这么用
+    </script>
+</head>
+<body>
+
+</body>
+</html>
