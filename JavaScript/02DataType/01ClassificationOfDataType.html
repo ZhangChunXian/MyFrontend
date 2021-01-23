@@ -27,42 +27,64 @@
                 // 1.4 数值判断
                 console.log(isNaN(12));                // isNaN 判断非数字
                 console.log(isNaN('pink'));
-        /* 2.字符串型 String */
-            // 因为HTML标签里面的属性使用的是双引号, JS这里更推荐使用单引号语法
-            // 2.1 字符串嵌套, 外双内单, 外单内双
-                var str = '我是一个"高富帅"程序员';
+            /* 2.字符串型 String */
+                // 因为HTML标签里面的属性使用的是双引号, JS这里更推荐使用单引号语法
+                // 2.1 字符串嵌套, 外双内单, 外单内双
+                    var str = '我是一个"高富帅"程序员';
+                    console.log(str);
+                // 2.2 字符串转义字符, 和C语言一样
+                    var str1 = '我是一个"高富帅"\n程序员';
+                    console.log(str1);
+                // 2.3 字符串长度, 长度为有效字符的个数
+                    var str = 'my name is andy';
+                    console.log(str.length);
+                // 2.4 字符串+任何类型=拼接之后的字符串
+                    console.log('沙漠' + '骆驼');
+                    console.log('pink' + 18);
+                    // 2.4.1 字符串拼接加强, 变量需要单独写出, 不写在字符串引号内
+                        var age = 18;
+                        console.log('pink is' + ' ' + age + ' years old');
+            /* 3. Boolean型 */
+                var flag = true;
+                var flag1 = false;
+                console.log(flag + 1);  // Boolean变量参与数值运算
+            /* 4. undefined */
+                // 一个变量声明未赋值, 就是undefined未定义数据类型
+                var str;
                 console.log(str);
-            // 2.2 字符串转义字符, 和C语言一样
-                var str1 = '我是一个"高富帅"\n程序员';
-                console.log(str1);
-            // 2.3 字符串长度, 长度为有效字符的个数
-                var str = 'my name is andy';
-                console.log(str.length);
-            // 2.4 字符串+任何类型=拼接之后的字符串
-                console.log('沙漠' + '骆驼');
-                console.log('pink' + 18);
-                // 2.4.1 字符串拼接加强, 变量需要单独写出, 不写在字符串引号内
-                    var age = 18;
-                    console.log('pink is' + ' ' + age + ' years old');
-        /* 3. Boolean型 */
-            var flag = true;
-            var flag1 = false;
-            console.log(flag + 1);  // Boolean变量参与数值运算
-        /* 4. undefined */
-            // 一个变量声明未赋值, 就是undefined未定义数据类型
-            var str;
-            console.log(str);
-            var Variable = undefined;       // 手动复制undefined
-            // 4.1 运算
-                // 4.1.1 undefined + 字符串
-                    console.log(undefined + 'pink');    // 输出为undefinedpink
-                // 4.1.2 undefined + 数值
-                    console.log(undefined + 1);         // 输出为NaN
-        /* 5. null 空值 */
-        var space = null;
-        console.log(space + 'pink');                    // 输出为 nullpink
-        console.log(space + 1);                         // 输出为 1
+                var Variable = undefined;       // 手动复制undefined
+                // 4.1 运算
+                    // 4.1.1 undefined + 字符串
+                        console.log(undefined + 'pink');    // 输出为undefinedpink
+                    // 4.1.2 undefined + 数值
+                        console.log(undefined + 1);         // 输出为NaN
+            /* 5. null 空值 */
+            var space = null;
+            console.log(space + 'pink');                    // 输出为 nullpink
+            console.log(space + 1);                         // 输出为 1
 
+        /* 2 判断变量的数据类型 */
+            var num = 10;
+            console.log(typeof num);  // typeof + variable
+            /* 在chrome控制台默认设置, string类型字体颜色为白色, number类型字体颜色为紫色 */
+
+        /* 3 数据类型转化 */
+            // 3.1 转换为字符串, 三个方法
+                var num = 1;
+                    console.log(num.toString());
+                    console.log(String(num));
+                    console.log(num + '转换成了字符串');    // 最主要, 拼接字符串实现转换效果
+            // 3.2 转换为数字型号(重点), 四个方法
+                var age = prompt('请输入你的年龄');
+                    console.log(parseInt(age));            // 方法一: 将string类型转换为整数数值, 截断取整, 开头为数字字符即有效, 后面非数字字符会被抛弃, 开头非数字字符就转换为NaN
+                    console.log(parseInt('120px'));
+                    console.log(parseFloat('78.21'));      // 方法二: 将string类型转换为浮点数数值, 开头为数字字符即有效, 后面非数字字符会被抛弃
+                    console.log(Number('123'));            // 方法三: 利用Number()
+                    console.log('12' * 12);                 // 方法四: 利用算数运算实现隐式转换, 输出为数字型144
+            // 3.3 转换为Boolean型
+                /* 仅有 Boolean()函数一种方式, 代表空, 否定的值会被转换成false, 如'', NaN, null, undefined, 其余值都会被转换成true*/
+                console.log(Boolean(''));   // false
+                console.log(Boolean(12));   // true
     </script>
 </head>
 <body>
