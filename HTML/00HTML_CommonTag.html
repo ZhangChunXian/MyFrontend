@@ -169,7 +169,7 @@
                     <td></td>
                 </tr>
             </table>
-
+    <!--?05 List Tag-->
     <h1>05 List Tag</h1> <!--! very important-->
         <h2>05.1 Unordered List</h2>
             <ul>     <!--<ul>标签中只能放<li>标签-->
@@ -190,7 +190,9 @@
                 <dd>新浪微博</dd>
                 <dd>官方微信</dd>
             </dl>
-        <h2>05.4 Form Tag</h2>
+    <!--?06 Form Tag-->
+    <h1>06 Form Tag</h1>
+        <h2>06.1 Input Form</h2>
             <form>      <!--form为表单域-->
                 用户名: <input type="text"  name="UserName" value="请输入用户名"> <br>
                 密码: <input type="password" name="password" ><br>
@@ -202,6 +204,24 @@
                 <input type="summit" value="免费注册">
                 <input type="reset" value="重新填写"><br>
                 <input type="button" value="获取短信验证码">
+            </form>
+        <h2>06.2 Label Tag</h2>
+            <label for="text">用户名:</label> <input type="text" id="text"><br>
+            <input type="radio" id="male"> <label for="male">男</label>
+            <input type="radio" id="female"> <label for="female">女</label>
+        <h2>06.3 select下拉表单元素</h2>
+            籍贯:
+            <select>
+                <option>山东</option>
+                <option>北京</option>
+                <option>上海</option>
+            </select>
+        <h2>06.4 textarea文本域元素</h2>
+            <form>
+                今日反馈:
+                <textarea cols="50" row="5">
+                    请输入你的反馈.
+                </textarea>
             </form>
 </body>
 </html>
