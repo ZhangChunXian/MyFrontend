@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <script>
+        /* 1. 数组的创建 */
+            /* 1.1 利用new关键字创建数组 */
+            var arr = new Array(); // 创建了一个空数组
+            /* 1.2 利用数组字面量创建数组 */
+            var arr=[]; // 创建了一个空数组
+            var arr1 = [1, 2, 'pink', true]; // 数组中可以存放任意数据类型, 数组里面数据用逗号分隔
+        /* 2 获取数组元素 */
+            console.log(arr1);
+            /* 2.1 数组的索引 */
+            var arr = ['white', 'black', 'green', 'yellow'];
+            console.log(arr[0]); // 访问第零个元素 white
+        /* 3 遍历数组 */
+            for (var i = 0; i < 3; i++) {
+                console.log(arr[i]);
+            }
+
+            for (var i = 0; i < arr.length; i++) {  // arr.length会自动检测元素个数
+                console.log(arr[i]);
+            }
+        /* 4 数组中新增元素 */
+            /* 4.1 通过修改arr.length */
+                arr.length = 5; // 新增的元素为undefined
+            /* 4.2 新增数组元素, 增添索引号, 追加数组元素 */
+                arr[4] = 'blue';
+                console.log(arr);
+            
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
