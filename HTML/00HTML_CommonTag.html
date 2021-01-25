@@ -102,7 +102,7 @@
         </tr>
     </table>
         <h2>04.1 Header Tag</h2>
-        <table>
+        <table border="1">
             <tr>
                 <th>Name</th>
                 <th>Gender</th>
@@ -114,8 +114,8 @@
                border="1" 
                cellpadding="15"              
                cellspacing="0"
-               width="500"
-               height="240">
+               width="50"
+               height="24">
             <tr>
                 <td>Column1</td>
                 <td>Column2</td>
@@ -127,6 +127,48 @@
                 <td>Age</td>
             </tr>
         </table>
+        <h2>04.3 Table Header Structure Tag</h2>
+            <table border="1" 
+                   align="center" 
+                   cellspacing="0" 
+                   width="500">
+                <!-- 表格头部 -->
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>KeyWord</th>
+                        <th>trend</th>
+                        <th>Last 7 days</th>
+                        <th>Associated links</th>
+                    </tr>
+                </thead>
+                <!-- 表格主体, 用于 存放数据本体 -->
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        <h2>04.4 Merge Table cells</h2>
+            <table width="500" 
+                   height="249" 
+                   border="1" 
+                   cellspacing="0">
+                <tr>
+                    <td></td>
+                    <td colspan="2"></td>
 
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
 </body>
 </html>
