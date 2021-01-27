@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子选择器</title>
+    <style>
+        .nav a {        /* 后代选择器 */
+            color: red;
+        }
+
+        .nav > a {     /* 自选择器多个>号选择的是亲儿子 */
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="#">这是儿子标签</a>
+        <br>
+        <a href="#">这是第二个儿子标签</a>
+        <p>
+            <a href="#">这是孙子标签</a>
+        </p>
+    </div>
+</body>
+</html>
