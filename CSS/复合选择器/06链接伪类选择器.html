@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>链接伪类选择器</title>
+    <style>
+        /* 1. 未访问的链接 a:link 把没有点击过(访问过的)链接选出来*/
+        a:link {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+
+        /* 2. a:visited 选择点击过的(访问过)链接 */
+        a:visited {
+            color: rgb(255, 255, 0);
+        }
+
+        /* 3. a:active 选择鼠标经过的那个链接 */
+        a:hover {
+            color: green;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.baidu.com">小猪佩奇</a>
+    <a href="htts://www.google.com">谷歌</a>
+</body>
+</html>
