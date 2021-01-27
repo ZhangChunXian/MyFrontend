@@ -9,9 +9,13 @@
         ol li {
             color: pink;
         }
-         ol li a {      /*  一层一层查找 */
+        ol li a {      /*  一层一层查找 */
             color: red;
             text-decoration: none;
+        }
+
+        .nav li a {  /* 可以是任意基础选择器*/
+            color: yellow;
         }
     </style>
 </head>
@@ -24,5 +28,10 @@
     <ol>
         <li> 我是ol的孩子</li>
     </ol>
+
+    <ul class="nav">
+        <li>我是ul的孩子</li>
+        <li><a href="#">不会变化的</a></li>
+    </ul>
 </body>
 </html>
