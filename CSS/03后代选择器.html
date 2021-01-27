@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复合选择器之后代选择器</title>
+    <style>
+        /*  我想要把ol里面的小li选出来改为pink */
+        ol li {
+            color: pink;
+        }
+         ol li a {      /*  一层一层查找 */
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        这是不是li, 所以没有样式变化
+        <li> 我是ol的孩子</li>
+        <li><a href="#">我是大哥</a></li>
+    </ol>
+    <ol>
+        <li> 我是ol的孩子</li>
+    </ol>
+</body>
+</html>
