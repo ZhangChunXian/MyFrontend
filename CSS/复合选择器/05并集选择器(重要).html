@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>并集选择器</title>
+    <style>
+        /* 1. 将熊大和熊二改为粉色 */
+        div, p {        /* 逗号表示和 */
+            color: pink;
+        }
+
+        /* 1. 佩奇一家也改成粉红色 */
+        div,
+        p,
+        .pig li {               /* 语法规范, 并集选择器竖着写 */
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div>熊大</div>
+    <p>熊二</p>
+    <span>光头强</span>
+    <ul class="pig">
+        <li>小猪佩奇</li>
+        <li>猪爸爸</li>
+        <li>猪妈妈</li>
+    </ul>
+</body>
+</html>
