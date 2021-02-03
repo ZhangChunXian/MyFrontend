@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>块级盒子水平居中对齐</title>
+    <style>
+        .header {
+            width: 500px;
+            height: 500px;
+            background-color: green;
+            /* 下列代码使块级盒子水平居中, 盒子必须设定了宽度(width), 盒子左右的外边距设置为auto */
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            /* 行内元素或者行内块元素水平对齐需设置父元素text-align: center */
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span>里面的文字</span>
+    </div>
+</body>
+</html>
