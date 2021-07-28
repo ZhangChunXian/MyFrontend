@@ -1,0 +1,226 @@
+[
+    {
+        "code": "AD",
+        "emoji": "🇦🇩",
+        "unicode": "U+1F1E6 U+1F1E9",
+        "name": "数据科学与工程学院",
+        "title": "flag for Andorra",
+        "dialCode": "+376"
+    },
+    {
+        "code": "AE",
+        "emoji": "🇦🇪",
+        "unicode": "U+1F1E6 U+1F1EA",
+        "name": "通信与电子工程学院",
+        "title": "flag for United Arab Emirates",
+        "dialCode": "+971"
+    },
+    {
+        "code": "AF",
+        "emoji": "🇦🇫",
+        "unicode": "U+1F1E6 U+1F1EB",
+        "name": "生态与环境科学学院",
+        "title": "flag for Afghanistan",
+        "dialCode": "+93"
+    },
+    {
+        "code": "AG",
+        "emoji": "🇦🇬",
+        "unicode": "U+1F1E6 U+1F1EC",
+        "name": "物理与电子科学学院",
+        "title": "flag for Antigua and Barbuda",
+        "dialCode": "+1268"
+    },
+    {
+        "code": "AI",
+        "emoji": "🇦🇮",
+        "unicode": "U+1F1E6 U+1F1EE",
+        "name": "化学与分子工程学院",
+        "title": "flag for Anguilla",
+        "dialCode": "+1 264"
+    },
+    {
+        "code": "AL",
+        "emoji": "🇦🇱",
+        "unicode": "U+1F1E6 U+1F1F1",
+        "name": "国际汉语文化学院",
+        "title": "flag for Albania",
+        "dialCode": "+355"
+    },
+    {
+        "code": "AM",
+        "emoji": "🇦🇲",
+        "unicode": "U+1F1E6 U+1F1F2",
+        "name": "地理科学学院",
+        "title": "flag for Armenia",
+        "dialCode": "+374"
+    },
+    {
+        "code": "AO",
+        "emoji": "🇦🇴",
+        "unicode": "U+1F1E6 U+1F1F4",
+        "name": "城市与区域科学学院",
+        "title": "flag for Angola",
+        "dialCode": "+244"
+    },
+    {
+        "code": "AQ",
+        "emoji": "🇦🇶",
+        "unicode": "U+1F1E6 U+1F1F6",
+        "name": "历史学院",
+        "title": "flag for Antarctica",
+        "dialCode": null
+    },
+    {
+        "code": "AR",
+        "emoji": "🇦🇷",
+        "unicode": "U+1F1E6 U+1F1F7",
+        "name": "生命科学学院",
+        "title": "flag for Argentina",
+        "dialCode": "+54"
+    },
+    {
+        "code": "AS",
+        "emoji": "🇦🇸",
+        "unicode": "U+1F1E6 U+1F1F8",
+        "name": "数学科学学院",
+        "title": "flag for American Samoa",
+        "dialCode": "+1 684"
+    },
+    {
+        "code": "AT",
+        "emoji": "🇦🇹",
+        "unicode": "U+1F1E6 U+1F1F9",
+        "name": "社会发展学院",
+        "title": "flag for Austria",
+        "dialCode": "+43"
+    },
+    {
+        "code": "AU",
+        "emoji": "🇦🇺",
+        "unicode": "U+1F1E6 U+1F1FA",
+        "name": "中国语言文学系",
+        "title": "flag for Australia",
+        "dialCode": "+61"
+    },
+    {
+        "code": "AW",
+        "emoji": "🇦🇼",
+        "unicode": "U+1F1E6 U+1F1FC",
+        "name": "经济与管理学部",
+        "title": "flag for Aruba",
+        "dialCode": "+297"
+    },
+    {
+        "code": "AX",
+        "emoji": "🇦🇽",
+        "unicode": "U+1F1E6 U+1F1FD",
+        "name": "孟宪承书院",
+        "title": "flag for Åland Islands",
+        "dialCode": ""
+    },
+    {
+        "code": "AZ",
+        "emoji": "🇦🇿",
+        "unicode": "U+1F1E6 U+1F1FF",
+        "name": "计算机科学与技术学院",
+        "title": "flag for Azerbaijan",
+        "dialCode": "+994"
+    },
+    {
+        "code": "BA",
+        "emoji": "🇧🇦",
+        "unicode": "U+1F1E7 U+1F1E6",
+        "name": "心理与认知科学学院",
+        "title": "flag for Bosnia and Herzegovina",
+        "dialCode": "+387"
+    },
+    {
+        "code": "BB",
+        "emoji": "🇧🇧",
+        "unicode": "U+1F1E7 U+1F1E7",
+        "name": "外语学院",
+        "title": "flag for Barbados",
+        "dialCode": "+1 246"
+    },
+    {
+        "code": "BD",
+        "emoji": "🇧🇩",
+        "unicode": "U+1F1E7 U+1F1E9",
+        "name": "传播学院",
+        "title": "flag for Bangladesh",
+        "dialCode": "+880"
+    },
+    {
+        "code": "BE",
+        "emoji": "🇧🇪",
+        "unicode": "U+1F1E7 U+1F1EA",
+        "name": "哲学系",
+        "title": "flag for Belgium",
+        "dialCode": "+32"
+    },
+    {
+        "code": "BF",
+        "emoji": "🇧🇫",
+        "unicode": "U+1F1E7 U+1F1EB",
+        "name": "音乐学院",
+        "title": "flag for Burkina Faso",
+        "dialCode": "+226"
+    },
+    {
+        "code": "BG",
+        "emoji": "🇧🇬",
+        "unicode": "U+1F1E7 U+1F1EC",
+        "name": "政治学院",
+        "title": "flag for Bulgaria",
+        "dialCode": "+359"
+    },
+    {
+        "code": "BH",
+        "emoji": "🇧🇭",
+        "unicode": "U+1F1E7 U+1F1ED",
+        "name": "法学院",
+        "title": "flag for Bahrain",
+        "dialCode": "+973"
+    },
+    {
+        "code": "BI",
+        "emoji": "🇧🇮",
+        "unicode": "U+1F1E7 U+1F1EE",
+        "name": "美术学院",
+        "title": "flag for Burundi",
+        "dialCode": "+257"
+    },
+    {
+        "code": "BJ",
+        "emoji": "🇧🇯",
+        "unicode": "U+1F1E7 U+1F1EF",
+        "name": "软件工程学院",
+        "title": "flag for Benin",
+        "dialCode": "+229"
+    },
+    {
+        "code": "BL",
+        "emoji": "🇧🇱",
+        "unicode": "U+1F1E7 U+1F1F1",
+        "name": "设计学院",
+        "title": "flag for Saint Barthélemy",
+        "dialCode": "+590"
+    },
+    {
+        "code": "BM",
+        "emoji": "🇧🇲",
+        "unicode": "U+1F1E7 U+1F1F2",
+        "name": "教育学部",
+        "title": "flag for Bermuda",
+        "dialCode": "+1 441"
+    },
+    {
+        "code": "BN",
+        "emoji": "🇧🇳",
+        "unicode": "U+1F1E7 U+1F1F3",
+        "name": "体育与健康学院",
+        "title": "flag for Brunei Darussalam",
+        "dialCode": "+673"
+    }
+]
